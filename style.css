@@ -1,0 +1,43 @@
+.title{
+    color: red;
+}
+
+.sub-heading:hover{
+    color: aqua ;
+}
+
+li:nth-child(3){
+    color: aqua;
+}
+
+td:nth-child(1){
+    color: purple;
+}
+
+/* #google-link:link{
+    color: brown;
+}
+
+#google-link:visited{
+    color: coral;
+} */
+
+/* This approach only works because the anchor tag directly follows the h2  */
+h2 + a{
+    color: rgb(68, 101, 90);
+}
+
+/* This approach only works because they share a parent element which is the form */
+textarea ~ button {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding:  0.5rem 2rem;
+    border-radius: 0.2rem;
+
+}
+
+ul > li{
+    font-weight: 600;
+    list-style: lower-alpha;
+}
